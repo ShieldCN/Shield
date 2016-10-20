@@ -1,0 +1,43 @@
+.Reflect_details{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    clear: both;
+}
+.Reflect_details .content{
+    padding: 0 0.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+.Reflect_details .top-money{
+    text-align: center;
+    font-size: 0.9375rem;
+    width: 100%;
+}
+.Reflect_details .top{
+    height: 3.5rem;
+    width: 100%;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.Reflect_details .top-title{
+    color: #ff6a2e;
+    border:1px solid #ff6a2e;
+    border-radius: 0.08rem;
+    text-align: center;
+    font-size: 0.375rem;
+    padding: 0.05rem 0.1rem;
+    position: absolute;
+    left: 42%;
+    top: 58%;
+}
+.Reflect_details .top-details{
+    padding:0.7rem 0.5rem;
+    font-size:0.375rem;
+}
+.Reflect_details .top-details-div{
+    width: 100%;
+    overflow: hidden;
+    margin: 0.1rem 0;
+}

@@ -1,0 +1,84 @@
+.recommend{
+    width:100%;
+    overflow: hidden;
+}
+.gray{
+    width:100%;
+    overflow: hidden;
+    background-color: #eeeeee;
+    height:0.2rem;
+    margin-top:1.8rem;
+}
+.recommend .content .headPicture{
+    text-align: center;
+}
+.recommend .content .headPicture img{
+    margin-top: 0.74074rem;
+    width: 1.85185rem;
+}
+.recommend .content .customerInfo{
+    padding-top:0.87037rem;
+    margin-left: 0.55556rem;
+    margin-right: 0.55556rem; 
+    line-height: 1rem;
+    border-bottom:1px solid #ccc;
+}
+.recommend .content .condition{
+    margin-left: 0.55556rem;
+    margin-right: 0.55556rem; 
+    line-height: 1rem;
+    border-bottom:1px solid #ccc;
+}
+.customerInfo img{
+    width:0.5rem;
+    vertical-align: center;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+.recommend .content .condition .contactForm{
+    margin-top:0.2rem;
+}
+.contactForm .form{
+    width:35%;
+    float: left;
+}
+.recommend .content .rec{
+    margin-top:1.3594rem ;
+    margin-left: 0.55556rem;
+    margin-right: 0.55556rem;
+    height:1.25rem;
+    text-align: center;
+    background-color:#ff6a2e;
+    text-align: center;
+    border-radius: 5px;
+}
+.recommend .content .rec p{
+    color:#fff;
+    line-height: 1.25rem;
+}
+.recommend .content .registTime{
+    float:right;
+    color:#ccc;
+    margin-top:1.1111rem;
+    margin-bottom:1.4444rem;
+    margin-right: 0.555556rem;
+
+}
+.recommend .alert{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+}
+.recommend .alert p{
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+    display: inline-block;
+    padding: .45rem .5rem;
+    border-radius: .25rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    top: 30%;
+}

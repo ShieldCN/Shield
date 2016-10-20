@@ -1,0 +1,116 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
+}
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+body {
+    margin-right: auto;
+    margin-left: auto;
+    /*max-width: 10.0rem;*/
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling:touch;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+a:hover,a:link,a:active {
+    text-decoration: none!important;
+}
+a {
+    color: #333;
+}
+ul {
+    list-style: none;
+}
+/* font-size set start */
+div {
+    font-size: 14px;
+}
+[data-dpr="2"] div {
+    font-size: 28px;
+}
+[data-dpr="3"] div {
+    font-size: 42px;
+}
+.font14 {
+    font-size: 14px;
+}
+[data-dpr="2"] .font14 {
+    font-size: 28px;
+}
+[data-dpr="3"] .font14 {
+    font-size: 42px;
+}
+.font16 {
+    font-size: 16px;
+}
+[data-dpr="2"] .font16 {
+    font-size: 32px;
+}
+[data-dpr="3"] .font16 {
+    font-size: 48px;
+}
+.font18 {
+    font-size: 18px;
+}
+[data-dpr="2"] .font18 {
+    font-size: 36px;
+}
+[data-dpr="3"] .font18 {
+    font-size: 54px;
+}
+.font20 {
+    font-size: 20px;
+}
+[data-dpr="2"] .font20 {
+    font-size: 40px;
+}
+[data-dpr="3"] .font20 {
+    font-size: 60px;
+}
+.font24 {
+    font-size: 24px;
+}
+[data-dpr="2"] .font24 {
+    font-size: 48px;
+}
+[data-dpr="3"] .font24 {
+    font-size: 72px;
+}
+.font30 {
+    font-size: 30px;
+}
+[data-dpr="2"] .font30 {
+    font-size: 60px;
+}
+[data-dpr="3"] .font30 {
+    font-size: 90px;
+}
+.font40 {
+    font-size: 40px;
+}
+[data-dpr="2"] .font40 {
+    font-size: 80px;
+}
+[data-dpr="3"] .font40 {
+    font-size:120px;
+}
+/* font-size set end */
+.ffcolor {
+    color: #ff6a2e;
+}

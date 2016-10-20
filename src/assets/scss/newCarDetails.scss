@@ -1,0 +1,192 @@
+.NewCarDetails {
+    width: 100%;
+    // padding-top: 1.4rem;
+    background: #eee;
+}
+.NewCarDetails .top-img,
+.NewCarDetails .top-img img {
+    width: 100%;
+}
+.NewCarDetails .top-title {
+    height: 0.9375rem;
+    width: 100%;
+    background: #fff;
+    line-height: 0.9375rem;
+    padding: 0 0.546875rem;
+}
+.NewCarDetails .top-title-fl {
+    width: 71%;
+    overflow: hidden;
+    height: 0.8rem;
+}
+.NewCarDetails .top-title-fr {
+    width: 29%;
+    text-align: right;
+    height: 0.8rem;
+}
+.NewCarDetails .basic-info {
+    width: 100%;
+    background: #fff;
+    margin-top: 0.234375rem;
+}
+.NewCarDetails .basic-title {
+    text-align: center;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    margin-left: 0.546875rem;
+    margin-right: 0.546875rem;
+    border-bottom: 1px solid #aaa;
+    font-size: 0.46875rem;
+    font-weight: bold;
+}
+.NewCarDetails .basic-content {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding: 0.3125rem 0.546875rem;
+}
+.NewCarDetails .basic-content ul{
+    width: 100%;
+    overflow: hidden;
+}
+.NewCarDetails .basic-content ul li{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 0.625rem;
+}
+.NewCarDetails .basic-content ul li h4{
+    font-weight: bold;
+}
+.NewCarDetails .basic-content ul li p{
+    font-size: 0.34375rem;
+    color: #aaa;
+}
+.NewCarDetails .intro-btn{
+    width: 5.46875rem;
+    height: 0.9375rem;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 0.9375rem;
+    margin: 0 auto;
+    font-size: 0.4rem;
+}
+.NewCarDetails .cxms {
+    width: 100%;
+    background: #fff;
+    margin-top: 0.234375rem;
+}
+.NewCarDetails .cxms-content {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding: .3125rem 0.546875rem;
+}
+/*亮点配置*/
+.NewCarDetails .ldpz {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.234375rem;
+}
+.NewCarDetails .ldpz-content {
+    width: 100%;
+    padding: 0 0.546875rem;
+    overflow: hidden;
+}
+.NewCarDetails .ldpz-content ul{
+    width: 100%;
+    overflow: hidden;
+}
+.NewCarDetails .ldpz-content ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size:0.34375rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.4rem;
+}
+.NewCarDetails .ldpz-content ul li span{
+    display: block;
+    height: 0.625rem;
+    height: 1.4rem;
+}
+.NewCarDetails .ldpz-content ul li span img{
+    width: 100%;
+    border-radius: 50%;
+}
+/*车辆图片*/
+.NewCarDetails .car-pictures{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.234375rem;
+}
+.NewCarDetails .car-piccon{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding: 0.3125rem 0.546875rem;
+}
+.NewCarDetails .car-piccon p{
+    width: 100%;
+}
+.NewCarDetails .car-picconlist{
+    width: 100%;
+    overflow: hidden;
+    margin: 0.23rem 0;
+}
+.NewCarDetails .car-picconlist img{
+    width: 100%;
+}
+/*推荐配置*/
+.NewCarDetails .car-recommended{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 0.234375rem;
+}
+.NewCarDetails .recommended-con{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding: 0.3125rem 0.546875rem;
+}
+.NewCarDetails .recommended-left {
+    width: 1.5625rem;
+    overflow: hidden;
+    padding-top: 0.234375rem;
+}
+.NewCarDetails .recommended-right {
+    width: 8.125rem;
+    overflow: hidden;
+    border-left: 1px solid #ddd;
+}
+.NewCarDetails .recommended-right ul li {
+    width: 8.125rem;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding: 0.234375rem 0;
+}
+.NewCarDetails .recommended-img {
+    width: 8.125rem;
+}
+.NewCarDetails .recommended-img img {
+    width: 1.171875rem;
+    height: 1.171875rem;
+    border: 1px solid #ddd;
+    margin-left: 0.15625rem;
+}
+.NewCarDetails .recommended-img .recomm-details {
+    width: 6.765625rem;
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem;
+}
+.NewCarDetails .recomm-right {
+    width: 6.765625rem;
+	margin-left: 1.434875rem;
+}
+.NewCarDetails .recomm-right span {
+    width: 3.28125rem;
+	float: left;
+    display: block;
+}

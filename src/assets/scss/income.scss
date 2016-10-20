@@ -1,0 +1,89 @@
+[v-cloak] { display: none }
+.incomelist{
+    max-width:640px;
+    min-width:320px;
+    margin:0 auto;
+    background-color:#eee;
+}
+header {
+    height:1.8rem;
+    background-color:#fff;
+}
+header ul li{
+    float:left;
+    font-size:0.55rem;
+    color:#333;
+    line-height: 1.8rem;
+}
+header li em {
+    margin-left:0.55rem;
+    margin-right:0.74rem;
+    width:0.37rem;
+    height:0.59rem;
+    display:inline-block;
+    background:url('../images/collect/fh.png');
+    background-size:100%;
+    vertical-align: middle;
+}
+
+.incomecont{
+    margin-top:0.55rem;
+    background-color:#fff;
+}
+.incomecont .hr{
+    width:90%;
+    height:1px;
+    margin:0 auto;
+    background-color:#ddd;
+}
+.count{
+    height:2.9rem;
+    padding-top:0.2rem;
+}
+.count p{
+    margin-top:12px;
+    width:1.9rem;
+    font-size:0.4rem;
+    line-height: 0.68rem;
+    text-align:center;
+    color:#fff;
+    background:url('../images/income/bg.png');
+    background-size:100%;
+}
+.count center{
+    font-size:1.2rem;
+    line-height: 1rem;
+}
+.carsource{
+    margin-left:0.68rem;
+}
+.carsource ul{
+    margin-top:0.55rem;
+}
+.carsource ul li{
+    overflow:hidden;
+    margin-bottom:0.68rem;
+    font-size:0.44rem;
+}
+.carsource label{
+    color:#333;
+}
+.carsource p{
+    color:#666;
+}
+.carsource p ,.carsource label{
+    float:left;
+}
+.carsource .textthro{
+    text-decoration:line-through;
+}
+.carsource .arrow{
+    float:right;
+    margin-right:0.74rem;
+    display:inline-block;
+    width:0.27rem;
+    height:0.5rem;
+    background:url('../images/income/rarrow.png');
+    background-size:100%;
+    vertical-align: middle;
+}
