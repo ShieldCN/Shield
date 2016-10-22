@@ -1,10 +1,10 @@
 {
-  "name": "JynCarBrokerTouch",
-  "description": "Jyn汽车经纪人手机端",
-  "author": "Jyn",
+  "name": "Shield",
+  "description": "Shield",
+  "author": "Shield",
   "private": true,
   "scripts": {
-    "dev": " pm2 start server.js --name carBroker  -e ./logs/carBroker.err",
+    "dev": " pm2 start server.js --name shield  -e ./logs/shield.err",
     "start": "cross-env NODE_ENV=production node server",
     "build": "npm run build:client && npm run build:server",
     "build:client": "cross-env NODE_ENV=production webpack --config build/webpack.client.config.js --progress --hide-modules",

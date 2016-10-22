@@ -31,64 +31,6 @@ export default new Router({
     routes: [ {
         path: '/home',
         component: Home
-    },  {
-        path: '/newcar',
-        component: NewCarList
-    }, {
-        path: '/usedcar',
-        component: UsedCar
-    }, {
-        path: '/usercenter',
-        component: UserCenter
-    }, {
-        path: '/collect',
-        component: collect
-    },{
-        path: '/personcenter',
-        compontent: personcenter
-    },{
-        path: '/persondata',
-        component: persondata
-    },{
-        path: '/personmodify',
-        component:personmodify
-    },{
-         path: '/Incomedail',
-        component: Incomedail
-    },{
-        path: '/login',
-        component: Login
-    }, {
-        path: '/register',
-        component: Register
-    },{
-        path: '/incomelist',
-        component: IncomeList
-    },{
-        path: '/reflect_details',
-        component: Reflect_details
-    },{
-        path: '/newCarDetails',
-        component: NewCarDetails
-    },
-    {
-        path: '/bankCard',
-        component: BankCardList
-    },
-    {
-        path:'/customerlist',
-        component:CustomerList
-    },{
-        path: '/bankCard/add',
-        component: BankCardAdd
-    },
-    {
-        path:'/information',
-        component:Information
-    },
-    {   
-        path: '/NewSpecification',
-        component: NewSpecification
     },
     {
         path: '*',
