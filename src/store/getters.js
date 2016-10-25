@@ -1,4 +1,4 @@
-import isArray from 'lodash.isarray';
+/*import isArray from 'lodash.isarray';
 export const checkoutStatus = state => state.cart.checkoutStatus
 
 export const allProducts = state => state.products.all
@@ -13,10 +13,10 @@ export const cartProducts = state => {
     }
   })
 }
-
+ */
 
 /*---------新车列表 START----------*/
-//获取新车所有的过滤条件
+/*//获取新车所有的过滤条件
 export const getNewCarFilterList=state=>{
   return state.newCarList.filterList||[];
 }
@@ -44,11 +44,11 @@ export const getNewCarActiveNav=state=>{
 export const getNewCarFilterNavList=state=>{
   return state.newCarList.filterNavList||[];
 }
-
+*/
 /*---------新车列表 END----------*/
 
 /*---------新车列表 START----------*/
-export const getNewCarDetails=state=>{
-  return state.newCarDetails.detailsList||[];
-}
+// export const getNewCarDetails=state=>{
+//   return state.newCarDetails.detailsList||[];
+// }
 /*---------新车列表 END----------*/

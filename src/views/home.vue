@@ -1,18 +1,18 @@
 <template>
-  <div class="">
-  <h1 class="font18">李琛琛女王大人</h1>
+  <div class="home">
+    <jyn-header></jyn-header>
   </div>
-
 </template>
 
 <script>
-
+import jynHeader from '../components/Header.vue'
 export default {
   name: 'home',
   methods:{
-    
+      
   },
   components:{
+    jynHeader
   }
 }
 </script>
