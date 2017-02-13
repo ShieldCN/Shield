@@ -5,6 +5,10 @@
             <div class="shield-center"></div>
             <div class="shield-down"></div>
         </div>
+        <a href="sms:10086?body=cxye">测试</a>
+        <div class="secretBg" v-show="openSecret">
+            {{secret}}
+        </div>
     </div>
 </template>
 <script>
@@ -29,26 +33,26 @@ export default {
                     if(e.keyCode==192){
                         self.openSecret=true;
                     }else if(self.openSecret){
-                        if(self.token.indexOf(e.key)>-1){
+                        if(e.key=='Enter'){
+                            if(self.secret===self.token){
+                                alert('bingo')
+                            }
+                            self.openSecret=false;
+                            self.secret="";
+                        }else if(e.keyCode==32){
+                            self.secret+=" ";
+                        }else if(e.key=='Backspace'){
+                            self.secret=self.secret.substring(0,self.secret.length-1)
+                        }else if(e.key=='Escape'){
+                            self.openSecret=false;
+                            self.secret="";
+                        }else if((e.keyCode<=90&&e.keyCode>=65)||(e.keyCode<=57&&e.keyCode>=48)){
                             self.secret+=e.key;
-                        }else{
-                            this.openSecret=false;
-                            this.secret="";
                         }
                     }
                 }
             }; 
         })
-    },
-    watch:{
-        secret(){
-            if(!this.secret||this.token.indexOf(this.secret)==-1){
-                this.openSecret=false;
-                this.secret=""
-            }else if(this.secret===this.token){
-                alert('bingo')
-            }
-        }
     },
     methods:{
     }
@@ -80,5 +84,16 @@ export default {
                 background:#eee;
             }
         }
+    }
+    .secretBg{
+        position:fixed;
+        top:0;
+        right:0;
+        width:100%;
+        height:100%;
+        background:#ccc;
+        opacity:0.7;
+        text-align:center;
+        color:#fff;
     }
 </style>
